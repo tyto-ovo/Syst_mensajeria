@@ -11,6 +11,9 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+* {
+  margin: 0;
+}
 .mensajeria {
   display: flex;
 }
@@ -24,23 +27,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+}
+.card {
+  height: 10vh;
 }
 .principal {
   display: flex;
-}
-.info {
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
+.info {
+  /*   height: 100vh; */
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 .logo {
-  width: 200px;
+  width: 250px;
 }
 .dicho {
   font-size: 45px;
 }
 .instruccion {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
