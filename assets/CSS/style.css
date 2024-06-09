@@ -23,6 +23,7 @@ body {
   background-color: white;
   width: 20em;
 }
+
 .columnas {
   display: flex;
   flex-direction: column;
@@ -33,9 +34,22 @@ body {
   height: 5em;
   flex-direction: row;
   align-items: center;
+  width: 18em;
+  padding-left: 10px;
+  border-bottom: solid 2px #bec1bb;
+  justify-content: left;
+  gap: 20px;
+}
+.alineando {
+  display: flex;
+  justify-content: space-evenly;
+}
+.botonCentral {
+  display: flex;
+  justify-content: center;
 }
 .fotoPerfil_1 {
-  width: 30px;
+  width: 40px;
   border-radius: 50%;
 }
 .fotoPerfil_2 {
